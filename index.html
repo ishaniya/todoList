@@ -5,40 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Weather App</title>
+    <title>A To-Do List</title>
 </head>
-<body> 
-
-    <div id="container">
-        <h1 class="head">Weather Details</h1>
-
-        <form id="form">
-            <br>
-            <div>
-            <input type="text" placeholder="Enter the city name">
-            <br>
-            <br>
-            <button id="btn">Get Results</button>
-            <br>
-            <br>
-            </div>
-            <main>
-                <h1  id="for">Forecast</h1>
-                
-                <div class="current">
-                  <div class="temp">15<span>°c</span></div>
-                  <div class="weather">Windy</div>
-                  <div class="hi-low">13°c / 16°c</div>
-                  <section class="location">
-                    <div class="city">New Delhi</div>
-                    <div class="date">Friday 2 April 2021</div>
-                  </section>
-                  
-                </div>
-              </main>
+<body>
+    <div id="addBar">
+        <form action="/" method="GET">
+        <h2>My To-Do List</h2>
+        <input type="text" id="newToDo" placeholder="Enter Your Task Here ...">
+        <button id="addBtn">Add Task</button>
         </form>
     </div>
-    
+
+    <ul id="liList">
+
+    </ul>
 
     <script src="app.js"></script>
 </body>
